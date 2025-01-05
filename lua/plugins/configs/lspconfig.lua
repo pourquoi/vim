@@ -77,6 +77,6 @@ require("lspconfig").phpactor.setup {
 
 require("rust-tools").setup {}
 
-require("lspconfig").tsserver.setup {}
+require("lspconfig").ts_ls.setup {}
 
 return M

@@ -52,6 +52,8 @@ M.general = {
       end,
       "LSP formatting",
     },
+
+    ["<leader>mr"] = { "<cmd> CellularAutomaton make_it_rain<CR>", "Make it rain" },
   },
 
   t = {

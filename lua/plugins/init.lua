@@ -232,6 +232,19 @@ local default_plugins = {
     "simrat39/rust-tools.nvim"
   },
 
+  {
+    "eandrju/cellular-automaton.nvim",
+    lazy = false
+  },
+
+  {
+    "karb94/neoscroll.nvim",
+    lazy = false,
+    opts = function()
+      return require "plugins.configs.neoscroll"
+    end,
+  },
+
   -- Only load whichkey after all the gui
   {
     "folke/which-key.nvim",
