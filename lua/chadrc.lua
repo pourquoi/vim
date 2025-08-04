@@ -1,7 +1,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "chadracula-evondev",
+	theme = "tokyonight",
 	transparency = true,
 }
 
@@ -14,6 +14,7 @@ M.colorify = {
 }
 
 M.ui = {
+	transparency = true,
 	tabufline = {
 		enabled = false,
 	},
